@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="360" viewBox="0 0 460 360" role="img" aria-label="Birth Sky: WEB · ASTRONOMY">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0d0920"/>
+    <stop offset=".55" stop-color="#22144a"/>
+    <stop offset="1" stop-color="#4a2a80"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#cbb6ff" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#cbb6ff" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="top"><rect x="8" y="8" width="444" height="198" rx="8"/></clipPath>
+</defs>
+<style>
+  .tw{animation:tw 3.2s ease-in-out infinite}
+  .tw2{animation:tw 4.6s ease-in-out infinite;animation-delay:1.3s}
+  .tw3{animation:tw 2.4s ease-in-out infinite;animation-delay:.7s}
+  @keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+  .cur{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .drift{animation:drift 26s linear infinite}
+  .drift2{animation:drift 38s linear infinite;animation-delay:-12s}
+  @keyframes drift{from{transform:translateX(-60px)}to{transform:translateX(60px)}}
+  .win{animation:win 5s steps(1) infinite}
+  @keyframes win{0%,70%{opacity:1}71%,85%{opacity:.25}86%{opacity:1}}
+  .shoot{animation:shoot 7s ease-in infinite}
+  @keyframes shoot{0%,82%{transform:translate(0,0);opacity:0}84%{opacity:1}96%{transform:translate(-260px,120px);opacity:0}100%{opacity:0}}
+  .bob{animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  .spin{animation:spin 9s linear infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .dash{stroke-dasharray:6 8;animation:dash 1.2s linear infinite}
+  @keyframes dash{to{stroke-dashoffset:-28}}
+</style>
+<rect x="2" y="2" width="456" height="356" rx="14" fill="#120c24" stroke="#7b55c9" stroke-width="2"/>
+<g clip-path="url(#top)">
+  <rect width="460" height="210" fill="url(#sky)"/>
+  <rect class="tw3" x="353" y="27" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="" x="274" y="31" width="3" height="3" fill="#e6dcff"/>
+<rect class="tw2" x="380" y="112" width="3" height="3" fill="#ffffff"/>
+<g class="tw2" fill="#ffffff"><rect x="377" y="113" width="2" height="1"/><rect x="384" y="113" width="2" height="1"/><rect x="381" y="109" width="1" height="2"/><rect x="381" y="116" width="1" height="2"/></g>
+<rect class="tw3" x="42" y="143" width="2" height="2" fill="#c9b3ff"/>
+<rect class="" x="364" y="114" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="417" y="138" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="36" y="6" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="tw3" x="39" y="61" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="tw" x="274" y="44" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="" x="380" y="83" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw3" x="158" y="14" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw2" x="108" y="127" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="320" y="16" width="3" height="3" fill="#ffffff"/>
+<rect class="tw" x="5" y="72" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw3" x="336" y="37" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="54" y="42" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="" x="325" y="133" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="246" y="10" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw2" x="73" y="58" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="tw3" x="300" y="137" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="tw2" x="38" y="148" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="tw" x="209" y="118" width="2" height="2" fill="#ffffff"/>
+<rect class="tw2" x="50" y="83" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="tw3" x="364" y="116" width="3" height="3" fill="#c9b3ff"/>
+<g class="tw3" fill="#c9b3ff"><rect x="361" y="117" width="2" height="1"/><rect x="368" y="117" width="2" height="1"/><rect x="365" y="113" width="1" height="2"/><rect x="365" y="120" width="1" height="2"/></g>
+<rect class="tw3" x="310" y="14" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw3" x="6" y="72" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="" x="231" y="60" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw3" x="108" y="96" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="" x="39" y="118" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw" x="48" y="76" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="77" y="15" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw2" x="298" y="26" width="3" height="3" fill="#ffffff"/>
+<rect class="tw2" x="350" y="54" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="167" y="23" width="2" height="2" fill="#ffffff"/>
+<rect class="tw" x="144" y="126" width="2" height="2" fill="#ffffff"/>
+<rect class="tw2" x="61" y="96" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="" x="452" y="126" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="tw2" x="155" y="62" width="3" height="3" fill="#c9b3ff"/>
+<rect class="tw3" x="33" y="110" width="3" height="3" fill="#ffffff"/>
+<rect class="" x="301" y="11" width="3" height="3" fill="#c9b3ff"/>
+<g class="tw" fill="#c9b3ff"><rect x="298" y="12" width="2" height="1"/><rect x="305" y="12" width="2" height="1"/><rect x="302" y="8" width="1" height="2"/><rect x="302" y="15" width="1" height="2"/></g>
+<rect class="" x="36" y="43" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw2" x="234" y="98" width="2" height="2" fill="#ffffff"/>
+<rect class="tw3" x="405" y="43" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="tw2" x="249" y="89" width="2" height="2" fill="#ffffff"/>
+<rect class="tw" x="336" y="150" width="3" height="3" fill="#ffffff"/>
+<g class="tw" fill="#ffffff"><rect x="333" y="151" width="2" height="1"/><rect x="340" y="151" width="2" height="1"/><rect x="337" y="147" width="1" height="2"/><rect x="337" y="154" width="1" height="2"/></g>
+  
+  <circle cx="400" cy="52" r="48.0" fill="url(#glow)"/>
+  <circle cx="400" cy="52" r="20" fill="#e4d9ff"/>
+  <circle cx="407.0" cy="49.0" r="18.400000000000002" fill="#c6b2f5" opacity=".55"/>
+  <circle cx="393.0" cy="47.0" r="3.5999999999999996" fill="#b8a2ee"/>
+  <circle cx="402.0" cy="60.0" r="2.6" fill="#b8a2ee"/>
+  <circle cx="399.0" cy="52.4" r="1.6" fill="#b8a2ee"/>
+  <rect x="0" y="191" width="28" height="55" fill="#1d1240"/>
+<rect x="6" y="183" width="16" height="8" fill="#1d1240"/>
+<rect class="" x="6" y="199" width="4" height="5" fill="#8f6bd8"/>
+<rect x="28" y="177" width="28" height="69" fill="#1d1240"/>
+<rect x="34" y="169" width="16" height="8" fill="#1d1240"/>
+<rect x="58" y="176" width="48" height="70" fill="#1d1240"/>
+<rect x="64" y="168" width="36" height="8" fill="#1d1240"/>
+<rect class="" x="84" y="184" width="4" height="5" fill="#8f6bd8"/>
+<rect class="" x="94" y="196" width="4" height="5" fill="#8f6bd8"/>
+<rect x="108" y="181" width="40" height="65" fill="#1d1240"/>
+<rect x="126" y="171" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="126" y="167" width="4" height="4" fill="#ff8fd8"/>
+<rect x="152" y="183" width="28" height="63" fill="#1d1240"/>
+<rect x="164" y="173" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="164" y="169" width="4" height="4" fill="#ff8fd8"/>
+<rect class="" x="168" y="191" width="4" height="5" fill="#8f6bd8"/>
+<rect x="180" y="183" width="22" height="63" fill="#1d1240"/>
+<rect x="202" y="184" width="48" height="62" fill="#1d1240"/>
+<rect x="224" y="174" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="224" y="170" width="4" height="4" fill="#ff8fd8"/>
+<rect x="252" y="191" width="34" height="55" fill="#1d1240"/>
+<rect class="" x="258" y="199" width="4" height="5" fill="#8f6bd8"/>
+<rect class="win" x="268" y="199" width="4" height="5" fill="#8f6bd8"/>
+<rect x="288" y="186" width="40" height="60" fill="#1d1240"/>
+<rect x="332" y="186" width="34" height="60" fill="#1d1240"/>
+<rect x="368" y="181" width="48" height="65" fill="#1d1240"/>
+<rect x="390" y="171" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="390" y="167" width="4" height="4" fill="#ff8fd8"/>
+<rect x="416" y="174" width="28" height="72" fill="#1d1240"/>
+<rect x="422" y="166" width="16" height="8" fill="#1d1240"/>
+<rect class="" x="422" y="194" width="4" height="5" fill="#8f6bd8"/>
+<rect x="444" y="188" width="34" height="58" fill="#1d1240"/>
+<rect class="" x="450" y="196" width="4" height="5" fill="#8f6bd8"/>
+  
+<g transform="translate(0 0)">
+  <circle cx="230" cy="108" r="92" fill="none" stroke="#6f4fb8" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <circle cx="230" cy="108" r="60" fill="none" stroke="#4f3590" stroke-width="1"/>
+  <path d="M138 108 H322 M230 16 V200" stroke="#4f3590" stroke-width="1"/>
+  <g fill="none" stroke="#cdbaff" stroke-width="1.8" opacity=".9">
+    <path d="M170 70 L205 92 L240 84 L268 112 L300 102"/>
+    <path d="M205 92 L196 140 L232 156 L268 112"/>
+  </g>
+  <g fill="#fff">
+    <circle class="tw" cx="170" cy="70" r="3.5"/><circle class="tw2" cx="205" cy="92" r="4.5"/><circle class="tw3" cx="240" cy="84" r="3"/>
+    <circle class="tw" cx="268" cy="112" r="5"/><circle class="tw2" cx="300" cy="102" r="3"/><circle class="tw3" cx="196" cy="140" r="3.5"/><circle class="tw" cx="232" cy="156" r="3"/>
+  </g>
+  <g transform="translate(316 150)"><rect x="-38" y="-12" width="76" height="22" rx="4" fill="#0d0920" stroke="#8a63d2"/><text x="0" y="3" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" font-weight="700" fill="#ffe28f">DD·MM·YYYY</text></g>
+</g>
+</g>
+<rect x="20" y="20" width="96" height="20" rx="4" fill="#0d0920" stroke="#8a63d2"/>
+<text x="68" y="34" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="10" font-weight="700" letter-spacing="1.5" fill="#cdbaff">PROJECT / 03</text>
+<text x="22" y="238" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="20" font-weight="800" fill="#f3edff">Birth Sky</text>
+<text x="22" y="257" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#b48cff">WEB · ASTRONOMY</text>
+<text x="22" y="276" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="12.5" fill="#b9aad9">The real sky above your city the moment</text><text x="22" y="294" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="12.5" fill="#b9aad9">you were born, made into a poster.</text>
+<rect x="22" y="318" width="88" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="66.0" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">JAVASCRIPT</text><rect x="118" y="318" width="60" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="148.0" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">CANVAS</text><rect x="186" y="318" width="81" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="226.5" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">ASTRONOMY</text>
+</svg>

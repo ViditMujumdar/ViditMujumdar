@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="360" viewBox="0 0 460 360" role="img" aria-label="Living Notes: AI · PHYSICS SIMULATOR">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0d0920"/>
+    <stop offset=".55" stop-color="#22144a"/>
+    <stop offset="1" stop-color="#4a2a80"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#cbb6ff" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#cbb6ff" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="top"><rect x="8" y="8" width="444" height="198" rx="8"/></clipPath>
+</defs>
+<style>
+  .tw{animation:tw 3.2s ease-in-out infinite}
+  .tw2{animation:tw 4.6s ease-in-out infinite;animation-delay:1.3s}
+  .tw3{animation:tw 2.4s ease-in-out infinite;animation-delay:.7s}
+  @keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+  .cur{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .drift{animation:drift 26s linear infinite}
+  .drift2{animation:drift 38s linear infinite;animation-delay:-12s}
+  @keyframes drift{from{transform:translateX(-60px)}to{transform:translateX(60px)}}
+  .win{animation:win 5s steps(1) infinite}
+  @keyframes win{0%,70%{opacity:1}71%,85%{opacity:.25}86%{opacity:1}}
+  .shoot{animation:shoot 7s ease-in infinite}
+  @keyframes shoot{0%,82%{transform:translate(0,0);opacity:0}84%{opacity:1}96%{transform:translate(-260px,120px);opacity:0}100%{opacity:0}}
+  .bob{animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  .spin{animation:spin 9s linear infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .dash{stroke-dasharray:6 8;animation:dash 1.2s linear infinite}
+  @keyframes dash{to{stroke-dashoffset:-28}}
+</style>
+<rect x="2" y="2" width="456" height="356" rx="14" fill="#120c24" stroke="#7b55c9" stroke-width="2"/>
+<g clip-path="url(#top)">
+  <rect width="460" height="210" fill="url(#sky)"/>
+  <rect class="tw" x="403" y="78" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="" x="161" y="112" width="3" height="3" fill="#e6dcff"/>
+<g class="tw" fill="#e6dcff"><rect x="158" y="113" width="2" height="1"/><rect x="165" y="113" width="2" height="1"/><rect x="162" y="109" width="1" height="2"/><rect x="162" y="116" width="1" height="2"/></g>
+<rect class="tw" x="102" y="72" width="3" height="3" fill="#ffffff"/>
+<rect class="" x="16" y="31" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="tw3" x="14" y="135" width="3" height="3" fill="#ffffff"/>
+<g class="tw3" fill="#ffffff"><rect x="11" y="136" width="2" height="1"/><rect x="18" y="136" width="2" height="1"/><rect x="15" y="132" width="1" height="2"/><rect x="15" y="139" width="1" height="2"/></g>
+<rect class="" x="22" y="98" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="380" y="96" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="342" y="84" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="tw2" x="371" y="127" width="3" height="3" fill="#ffffff"/>
+<rect class="" x="277" y="86" width="2" height="2" fill="#ffffff"/>
+<rect class="tw" x="46" y="29" width="3" height="3" fill="#c9b3ff"/>
+<g class="tw" fill="#c9b3ff"><rect x="43" y="30" width="2" height="1"/><rect x="50" y="30" width="2" height="1"/><rect x="47" y="26" width="1" height="2"/><rect x="47" y="33" width="1" height="2"/></g>
+<rect class="tw" x="297" y="75" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="151" y="142" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw" x="115" y="70" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw2" x="405" y="34" width="3" height="3" fill="#e6dcff"/>
+<rect class="tw2" x="385" y="29" width="3" height="3" fill="#e6dcff"/>
+<rect class="tw" x="32" y="110" width="3" height="3" fill="#ffffff"/>
+<rect class="tw" x="355" y="7" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw" x="231" y="27" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw" x="255" y="53" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="" x="242" y="144" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="114" y="27" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="tw3" x="336" y="47" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="219" y="46" width="1.5" height="1.5" fill="#e6dcff"/>
+<rect class="" x="340" y="110" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw2" x="418" y="109" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="tw3" x="155" y="112" width="3" height="3" fill="#c9b3ff"/>
+<rect class="tw" x="30" y="76" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="tw2" x="75" y="89" width="3" height="3" fill="#ffffff"/>
+<rect class="tw2" x="44" y="90" width="1.5" height="1.5" fill="#c9b3ff"/>
+<rect class="tw" x="245" y="119" width="2" height="2" fill="#e6dcff"/>
+<rect class="" x="197" y="10" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="410" y="11" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw3" x="220" y="24" width="3" height="3" fill="#e6dcff"/>
+<rect class="" x="280" y="146" width="2" height="2" fill="#c9b3ff"/>
+<rect class="tw2" x="156" y="71" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="tw" x="446" y="131" width="3" height="3" fill="#c9b3ff"/>
+<g class="tw" fill="#c9b3ff"><rect x="443" y="132" width="2" height="1"/><rect x="450" y="132" width="2" height="1"/><rect x="447" y="128" width="1" height="2"/><rect x="447" y="135" width="1" height="2"/></g>
+<rect class="" x="214" y="78" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw3" x="416" y="81" width="2" height="2" fill="#ffffff"/>
+<rect class="" x="202" y="14" width="3" height="3" fill="#c9b3ff"/>
+<rect class="" x="279" y="75" width="1.5" height="1.5" fill="#ffffff"/>
+<rect class="tw" x="139" y="41" width="2" height="2" fill="#c9b3ff"/>
+<rect class="" x="240" y="34" width="2" height="2" fill="#e6dcff"/>
+<rect class="tw" x="7" y="13" width="2" height="2" fill="#ffffff"/>
+<rect class="tw" x="394" y="148" width="3" height="3" fill="#e6dcff"/>
+  
+  <circle cx="400" cy="52" r="48.0" fill="url(#glow)"/>
+  <circle cx="400" cy="52" r="20" fill="#e4d9ff"/>
+  <circle cx="407.0" cy="49.0" r="18.400000000000002" fill="#c6b2f5" opacity=".55"/>
+  <circle cx="393.0" cy="47.0" r="3.5999999999999996" fill="#b8a2ee"/>
+  <circle cx="402.0" cy="60.0" r="2.6" fill="#b8a2ee"/>
+  <circle cx="399.0" cy="52.4" r="1.6" fill="#b8a2ee"/>
+  <rect x="0" y="186" width="34" height="60" fill="#1d1240"/>
+<rect x="6" y="178" width="22" height="8" fill="#1d1240"/>
+<rect class="" x="16" y="194" width="4" height="5" fill="#8f6bd8"/>
+<rect x="36" y="181" width="48" height="65" fill="#1d1240"/>
+<rect x="58" y="171" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="58" y="167" width="4" height="4" fill="#ff8fd8"/>
+<rect class="" x="42" y="189" width="4" height="5" fill="#8f6bd8"/>
+<rect class="" x="62" y="189" width="4" height="5" fill="#8f6bd8"/>
+<rect class="win" x="42" y="201" width="4" height="5" fill="#8f6bd8"/>
+<rect class="" x="62" y="201" width="4" height="5" fill="#8f6bd8"/>
+<rect x="88" y="174" width="34" height="72" fill="#1d1240"/>
+<rect x="94" y="166" width="22" height="8" fill="#1d1240"/>
+<rect class="" x="94" y="182" width="4" height="5" fill="#8f6bd8"/>
+<rect class="win" x="104" y="182" width="4" height="5" fill="#8f6bd8"/>
+<rect class="" x="104" y="194" width="4" height="5" fill="#8f6bd8"/>
+<rect x="124" y="173" width="34" height="73" fill="#1d1240"/>
+<rect x="139" y="163" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="139" y="159" width="4" height="4" fill="#ff8fd8"/>
+<rect x="158" y="183" width="48" height="63" fill="#1d1240"/>
+<rect x="208" y="177" width="22" height="69" fill="#1d1240"/>
+<rect x="230" y="179" width="34" height="67" fill="#1d1240"/>
+<rect x="236" y="171" width="22" height="8" fill="#1d1240"/>
+<rect class="" x="236" y="199" width="4" height="5" fill="#8f6bd8"/>
+<rect x="266" y="183" width="22" height="63" fill="#1d1240"/>
+<rect x="272" y="175" width="10" height="8" fill="#1d1240"/>
+<rect x="292" y="192" width="40" height="54" fill="#1d1240"/>
+<rect x="332" y="190" width="40" height="56" fill="#1d1240"/>
+<rect x="338" y="182" width="28" height="8" fill="#1d1240"/>
+<rect class="" x="348" y="198" width="4" height="5" fill="#8f6bd8"/>
+<rect x="374" y="187" width="34" height="59" fill="#1d1240"/>
+<rect x="389" y="177" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="389" y="173" width="4" height="4" fill="#ff8fd8"/>
+<rect x="412" y="175" width="40" height="71" fill="#1d1240"/>
+<rect class="win" x="428" y="195" width="4" height="5" fill="#8f6bd8"/>
+<rect x="452" y="172" width="48" height="74" fill="#1d1240"/>
+<rect x="474" y="162" width="4" height="10" fill="#1d1240"/>
+<rect class="tw" x="474" y="158" width="4" height="4" fill="#ff8fd8"/>
+<rect class="" x="478" y="180" width="4" height="5" fill="#8f6bd8"/>
+  
+<g transform="translate(230 112)">
+  <!-- notebook page -->
+  <rect x="-130" y="-70" width="260" height="140" rx="6" fill="#efe8ff" transform="rotate(-3)"/>
+  <g transform="rotate(-3)">
+    <g stroke="#c9bbf0" stroke-width="1"><path d="M-120 -40 H120"/><path d="M-120 -16 H120"/><path d="M-120 8 H120"/><path d="M-120 32 H120"/><path d="M-120 56 H120"/></g>
+    <path d="M-100 -70 V70" stroke="#ff8fd8" stroke-width="1.5"/>
+    <!-- circuit drawn in ink -->
+    <g fill="none" stroke="#3a2373" stroke-width="3" stroke-linejoin="round">
+      <path d="M-80 -40 H20 M40 -40 H90 V40 H-80 V-40"/>
+      <path d="M20 -52 V-28 M30 -46 V-34" />
+      <path d="M-40 40 l6 -10 l8 20 l8 -20 l8 20 l8 -20 l6 10"/>
+    </g>
+    <!-- current flowing -->
+    <path class="dash" d="M-80 -40 H20 M40 -40 H90 V40 H-80 V-40" fill="none" stroke="#8ff0ff" stroke-width="3"/>
+    <!-- bulb -->
+    <circle cx="90" cy="0" r="14" fill="#ffe28f" stroke="#3a2373" stroke-width="3"/>
+    <circle class="tw" cx="90" cy="0" r="26" fill="#ffe28f" opacity=".35"/>
+  </g>
+  <!-- slider -->
+  <g transform="translate(-60 86)"><rect x="0" y="-3" width="120" height="6" rx="3" fill="#5d3fa3"/><rect class="bob" x="70" y="-9" width="12" height="18" rx="3" fill="#b48cff" stroke="#efe8ff" stroke-width="1.5"/></g>
+</g>
+</g>
+<rect x="20" y="20" width="96" height="20" rx="4" fill="#0d0920" stroke="#8a63d2"/>
+<text x="68" y="34" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="10" font-weight="700" letter-spacing="1.5" fill="#cdbaff">PROJECT / 02</text>
+<text x="22" y="238" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="20" font-weight="800" fill="#f3edff">Living Notes</text>
+<text x="22" y="257" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#b48cff">AI · PHYSICS SIMULATOR</text>
+<text x="22" y="276" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="12.5" fill="#b9aad9">Turn a photographed physics diagram into</text><text x="22" y="294" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="12.5" fill="#b9aad9">a live experiment, with an AI tutor.</text>
+<rect x="22" y="318" width="88" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="66.0" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">TYPESCRIPT</text><rect x="118" y="318" width="47" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="141.5" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">NODE</text><rect x="173" y="318" width="60" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="203.0" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">SQLITE</text><rect x="241" y="318" width="88" height="22" rx="11" fill="none" stroke="#8a63d2" stroke-width="1.5"/><text x="285.0" y="333" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#cdbaff">PLAYWRIGHT</text>
+</svg>
